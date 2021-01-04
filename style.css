@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.grid{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr  2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+    "header header"
+    "menu logo"
+    "opis opis"
+    ;
+}
+.header{
+    grid-area: header;
+}
+.menu{
+    grid-area: menu;
+    
+    margin-left: 20px ;
+    
+    background-color: bisque;
+}
+.ul{
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    list-style-type: none;
+    
+}
+.button_fit{
+    width: min-content
+}
+.button_1 {
+    
+    border: 3px solid #B01C36;
+    color: rgb(0, 0, 0);
+    padding: 11px 9px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px
+    
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    box-sizing: border-box;
+  }
+
+.button{
+    display: block;
+    border: 3px solid #B01C36;
+    box-sizing: border-box;
+    v
+}
+.logo{
+    grid-area: logo;
+    
+   
+    background-color: aquamarine;
+}
+.jpg_logo{
+    
+    
+    width: 100%;
+    height: auto;
+    
+filter: drop-shadow(1px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.Nazwa{
+margin-left: 86px;
+padding-top: 36px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.opis{
+    grid-area: opis;
+    
+}
+.tlo{
+    background-color: #FF4265;
+}
+.h{
+    font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.p{
+      font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #ffffff;
+}
+.p2{
+    font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+}
